@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<dependency name="sentryex" path="dependencies/sentryex" if="android" />
+	<android extension="com.sentryex.SentryEx" />
+	
+</project>
