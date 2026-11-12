@@ -14,7 +14,7 @@ android {
 }
 
 dependencies {
-	compile project(':deps:extension-api')
+	api project(':deps:extension-api')
 
-	implementation 'io.sentry:sentry-android:6.12.1'
+	implementation 'io.sentry:sentry-android:8.62.0'
 }
